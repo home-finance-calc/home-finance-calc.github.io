@@ -1,0 +1,15 @@
+# robots.txt for Home Finance Calc
+# https://home-finance-calc.github.io/
+
+# Allow all crawlers
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://home-finance-calc.github.io/sitemap.xml
+
+# Disallow internal paths
+Disallow: /.git/
+
+# Crawl-delay for polite crawling
+Crawl-delay: 1
